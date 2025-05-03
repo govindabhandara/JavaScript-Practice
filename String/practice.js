@@ -1,13 +1,7 @@
-// Find the first non-repeating character in a string.
-function firstNonRepeatingChar(s) {
-    const freq = {};
-    for (const char of s) {
-        freq[char] = (freq[char] || 0) + 1;
-    }
-    for (const char of s) {
-        if (freq[char] === 1) return char;
-    }
-    return null;
-}
+let text="i like apples.";
+// Replace first occurance
+console.log(text.replace("apples","oranges"));
 
-console.log(firstNonRepeatingChar("swiss"));  // Output: 'w'
+// Replace all occurance using regex 
+console.log(text.replace(/like/,"love"))  // simple replacement
+console.log(text.replace(/like/g,"love"))  // Global replacement
