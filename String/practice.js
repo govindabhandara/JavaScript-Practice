@@ -1,5 +1,4 @@
-let msg="hello world";
-msg=msg.toUpperCase();
-console.log(msg);
-msg=msg.toLowerCase();
-console.log(msg);
+const str = '5';
+console.log(str.padStart(3, '0')); // Output: "005"
+const str1 = 'Hello';
+console.log(str1.padEnd(10, '.')); // Output: "Hello....."
