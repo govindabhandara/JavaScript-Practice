@@ -1,14 +1,5 @@
-function countVowels(str) {
-    const vowels = ['a', 'e', 'i', 'o', 'u'];
-    let count = 0;
-    
-    for (let char of str.toLowerCase()) {
-        if (vowels.includes(char)) {
-            count++;
-        }
-    }
-    
-    return count;
+// Check if a string is a palindrome (reads the same forwards and backwards).
+function isPalindrome(p) {
+    p = p.toLowerCase().replace(/\p/g,'');
 }
-
-console.log(countVowels("Hello World")); // 3
+console.log(isPalindrome("madam"));
