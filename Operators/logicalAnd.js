@@ -1,7 +1,4 @@
 console.log(true && "hello");  // "hello" (both truthy → returns last value)
 console.log(0 && "hello");     // 0 (first falsy → stops and returns 0)
 console.log(null && false);    // null (first falsy)
-console.log(null&true);
-console.log(false&&"hello");
-console.log(true && undefined);
-console.log(false&&undefined);
+console.log(false&&'hello');
