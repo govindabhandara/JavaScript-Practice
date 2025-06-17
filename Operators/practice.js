@@ -1,4 +1,4 @@
-
-const user = { profile: { name: "Alice" } };
-const userName = user && user.profile && user.profile.name;
-console.log(userName); // Output: "Alice"
+let n=Number(prompt("enter number"));
+let n1=Number(prompt("enter number"));
+sum=n+n1;
+console.log(sum);

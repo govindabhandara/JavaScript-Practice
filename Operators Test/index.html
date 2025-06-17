@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Operator Tester</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>JavaScript Operator Tester</h1>
+
+    <input type="number" id="value1" placeholder="Enter first value">
+    <input type="number" id="value2" placeholder="Enter second value">
+
+    <select id="operator">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+      <option value="%">%</option>
+      <option value="==">==</option>
+      <option value="!=">!=</option>
+      <option value=">">&gt;</option>
+      <option value="<">&lt;</option>
+      <option value=">=">&gt;=</option>
+      <option value="<=">&lt;=</option>
+    </select>
+
+    <button onclick="calculate()">Calculate</button>
+
+    <h2>Result: <span id="result">?</span></h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
