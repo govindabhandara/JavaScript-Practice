@@ -1,3 +1,4 @@
+
 const userInput = "Alice";
 const name = userInput || "Guest";
 console.log(name); // Output: "Alice"

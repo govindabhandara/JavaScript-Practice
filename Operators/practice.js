@@ -1,4 +1,3 @@
-let n=Number(prompt("enter number"));
-let n1=Number(prompt("enter number"));
-sum=n+n1;
-console.log(sum);
+a=parseFloat(prompt("enter a"));
+b=parseFloat(prompt("enter b"));
+console.log(a b)
