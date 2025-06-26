@@ -1,8 +1,5 @@
-let p=document.querySelector('p');
-console.log(p.classList);
-console.log(p.classList.add("govinda"));
-console.log(p.classList.remove("govinda"));
-
-// classList.remove()
-// classList.contains()
-// classList.toggle()
+let para1=document.createElement('p');
+para1.innerText="I am creating first paragraph";
+document.querySelector('body').append(para1);
+para1.classList.add("red");
+console.log()
